@@ -1,0 +1,114 @@
+{
+  "true_params_synthetic_only": {
+    "J": 0.05,
+    "b": 0.12,
+    "c": 0.08,
+    "delay": 0.03
+  },
+  "nominal_params": {
+    "J": 0.04,
+    "b": 0.05,
+    "c": 0.0,
+    "delay": 0.0
+  },
+  "fitted_params": {
+    "J": 0.05444439295535856,
+    "b": 0.14812032821908702,
+    "c": 0.0760459603842441,
+    "delay": 0.014999992044733436
+  },
+  "fitted_ci95": {
+    "J": 0.00018845127801467366,
+    "b": 0.0008566640414888021,
+    "c": 0.00041200102305146677,
+    "delay": 2.170102771544094e-09
+  },
+  "before": {
+    "train: multisine": {
+      "theta": {
+        "rmse": 1.2821401228555112,
+        "max_abs": 1.7098376256464956,
+        "fit_pct": -754.7490589540267,
+        "first_exceeds_tol_s": 0.19
+      },
+      "omega": {
+        "rmse": 0.8727223545191551,
+        "max_abs": 1.7217668898805571,
+        "fit_pct": -72.47302998638038,
+        "first_exceeds_tol_s": 0.22
+      }
+    },
+    "held-out: chirp": {
+      "theta": {
+        "rmse": 2.1489098587807534,
+        "max_abs": 2.4233972419750422,
+        "fit_pct": -1320.6172072399668,
+        "first_exceeds_tol_s": 0.33
+      },
+      "omega": {
+        "rmse": 0.6985532686699942,
+        "max_abs": 2.2948993463382577,
+        "fit_pct": -67.50463761530519,
+        "first_exceeds_tol_s": 0.36
+      }
+    },
+    "held-out: pulses": {
+      "theta": {
+        "rmse": 1.4646232453582855,
+        "max_abs": 2.931400489232189,
+        "fit_pct": -288.09435099726574,
+        "first_exceeds_tol_s": 0.65
+      },
+      "omega": {
+        "rmse": 1.551203161790948,
+        "max_abs": 2.63785651273854,
+        "fit_pct": -114.57636084917246,
+        "first_exceeds_tol_s": 0.64
+      }
+    }
+  },
+  "after": {
+    "train: multisine": {
+      "theta": {
+        "rmse": 0.005334386447897577,
+        "max_abs": 0.018068061450025208,
+        "fit_pct": 96.44378822941539,
+        "first_exceeds_tol_s": null
+      },
+      "omega": {
+        "rmse": 0.03400926085804001,
+        "max_abs": 0.09963285294560525,
+        "fit_pct": 93.27887014992852,
+        "first_exceeds_tol_s": null
+      }
+    },
+    "held-out: chirp": {
+      "theta": {
+        "rmse": 0.026329833180204407,
+        "max_abs": 0.040146215041575395,
+        "fit_pct": 82.593679336192,
+        "first_exceeds_tol_s": null
+      },
+      "omega": {
+        "rmse": 0.04949645028932411,
+        "max_abs": 0.13822696126556736,
+        "fit_pct": 88.1313489739407,
+        "first_exceeds_tol_s": null
+      }
+    },
+    "held-out: pulses": {
+      "theta": {
+        "rmse": 0.04119948698953798,
+        "max_abs": 0.07216897211844459,
+        "fit_pct": 89.08300259790452,
+        "first_exceeds_tol_s": 1.74
+      },
+      "omega": {
+        "rmse": 0.058384188933693494,
+        "max_abs": 0.17166834728063995,
+        "fit_pct": 91.92377433136588,
+        "first_exceeds_tol_s": null
+      }
+    }
+  }
+}
